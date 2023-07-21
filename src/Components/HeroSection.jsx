@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <p>All Inclusive</p>
                     <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl'>Private Beaches & Gateways</h1>
                     <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl'>Lorem ipsum dolor sit amet  consectetur, adipisicing elit. Odio molestiae ipsa sit tenetur cupiditate fugit, dolore amet quae corporis quidem!</p>
-                    <button className='bg-white text-black font-bold'>Reserve Now</button>
+                    <button className='bg-white text-gray-700 font-bold'>Reserve Now</button>
                 </div>
             </div>
 
