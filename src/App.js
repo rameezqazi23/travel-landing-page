@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import HeroSection from "./Components/HeroSection";
 import ImagesSection from "./Components/ImagesSection";
 import Navbar from "./Components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <PlanSection />
       <Room />
       <ImagesSection />
+      <Footer />
     </div>
   );
 }

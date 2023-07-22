@@ -19,7 +19,7 @@ const PlanSection = () => {
             </div>
             {/* Right Section */}
             <div className='flex flex-col h-full justify-center'>
-                <h3 className='text-5xl md:text6xl font-bold' data-aos="fade-left" data-aos-duration="2000">Plan Your Next Trip</h3>
+                <h3 className='text-5xl md:text6xl font-bold' data-aos="fade-down" data-aos-duration="2000">Plan Your Next Trip</h3>
                 <p className='text-2xl py-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati labore, quia velit et illum omnis officiis doloremque a architecto.</p>
                 <p className='pb-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati labore, quia velit et illum omnis officiis doloremque a architecto.</p>
 
