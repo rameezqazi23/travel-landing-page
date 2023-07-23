@@ -20,10 +20,9 @@ const Navbar = () => {
                 'absolute top-0 h-screen right-[-100%] ease-in-out delay-150 duration-500 z-10'}>
                 <ul className='flex flex-col fixed justify-center items-center w-full h-full'>
                     <li className='font-bold text-3xl p-8'>Home</li>
-                    <li className='font-bold text-3xl p-8'>Destination</li>
-                    <li className='font-bold text-3xl p-8'>Reservation</li>
-                    <li className='font-bold text-3xl p-8'>Amenities</li>
-                    <li className='font-bold text-3xl p-8'>Rooms</li>
+                    <li className='font-bold text-3xl p-8'>About</li>
+                    <li className='font-bold text-3xl p-8'>Services</li>
+                    <li className='font-bold text-3xl p-8'>Reservations</li>
                     <li className='font-bold text-3xl p-8'>Contact</li>
                 </ul>
             </div>
