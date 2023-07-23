@@ -23,7 +23,7 @@ jobs:
     - name: Install NodeJS
       uses: actions/setup-node@v2-beta
       with: 
-        node-version: 18
+        node-version: 12
       
     - uses: dreygur/github-actions-yarn@1.0.1
       with:
@@ -31,7 +31,7 @@ jobs:
       
       #Building react application
     - name: Build React App
-      run: yarn build
+      run: npm run build
      
       #Installing surge
     - name: Install Surge
