@@ -24,14 +24,13 @@ jobs:
     - name: Install Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
-    
+        node-version: 18
+        
     - name: Github Actions Yarn
       uses: dreygur/github-actions-yarn@1.0.1
+      with:
+       cmd: install 
+
 
     - name: Build React App
       run: yarn build
